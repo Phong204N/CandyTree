@@ -23,9 +23,6 @@ class CandyTree {
     // }
 
     public String format() {
-        // String fasta = "";
-        // fasta = ">" + seqTitle + "\n" + sequence;
-        // return fasta;
         return ">" + seqTitle + "\n" + sequence;
     }
 
