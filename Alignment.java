@@ -27,16 +27,6 @@ class Alignment {
 
     }
 
-    // public void fillGrid() {
-    // for (int ia = 1; ia < matrix.length; ia++) {
-    // for (int ib = 1; ib < matrix[0].length; ib++) {
-    // int[] neighbors = new int[] { matrix[ia - 1][ib] - 2, matrix[ia - 1][ib - 1],
-    // matrix[ia][ib - 1] - 2 };
-    // matrix[ia][ib] = baseScore(neighbors, ia - 1, ib - 1);
-    // }
-    // }
-    // }
-
     public void fillGrid() {
         for (int ia = 0; ia < matrix.length; ia++) {
             for (int ib = 0; ib < matrix[0].length; ib++) {
